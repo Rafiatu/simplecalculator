@@ -1,0 +1,11 @@
+FROM python:3.8.0-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y git 
+
+RUN pip install git+https://github.com/adeyinkaoresanya/simplecalculator.git
+
+COPY . /app
+
+CMD ["python", "simplecalculator.py"]
