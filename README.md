@@ -1,5 +1,5 @@
 # Simplecalculator
-Simplecalculator is a Python library for making basic calculaltions including addition, subtraction, multiplication, division and finding the nth root of a number.
+Simplecalculator is a Python library for making basic calculations including addition, subtraction, multiplication, division and finding the nth root of a number.
 
 ## Installation
 
